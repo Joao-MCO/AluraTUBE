@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledTimeline = styled.div`
+export const StyledFavoritos = styled.div`
   flex: 1;
   width: 100%;
   padding: 16px;
@@ -14,21 +14,22 @@ export const StyledTimeline = styled.div`
     aspect-ratio: 16/9;
     font-weight: 500;
     object-fit: cover;
-    width: 100%;
-    max-width: 210px;
-    height: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
   }
   section {
-    border-top: 1.5px solid #ccc;
     width: 100%;
     padding: 0;
     overflow: hidden;
     padding: 16px;
+    border-top: 1.5px solid #ccc;
+    
     div {
-      
+      align-items: center;
       width: calc(100vw - 16px * 4);
       display: grid;
-      grid-gap: 16px;
+      grid-gap: 20px;
       grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
       grid-auto-flow: column;
       grid-auto-columns: minmax(200px,1fr);

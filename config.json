@@ -3,6 +3,7 @@
     "cargo": "Canal dedicado para o hype da Copa do Mundo",
     "logo": "https://scontent-gru1-1.xx.fbcdn.net/v/t1.6435-9/106462090_10158559475182640_2792142565661601783_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEob8Dw6q7Z1MEU1eDHJdZwOmKqrzGgO9w6YqqvMaA73KqYbrz0HfdClGzLumNykH61drEu7krzqK5JeesKqPz-&_nc_ohc=kcgqRj83KVEAX8B7L6y&_nc_ht=scontent-gru1-1.xx&oh=00_AfCOFDf55uoSWtE_hD9bXam3CooCMFfPZQh0CXbFJ8nvNg&oe=639451FE",
     "github": "joao-mco",
+    "banner": "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
     "playlists": {
         "Baú do Esporte": [
             {
@@ -43,72 +44,92 @@
             {
                 "title": "Todos os Gols da Copa do Mundo 1990",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=8",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/4lUbWQ4wcns/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIAw8thqqUy6Z9ly2QIJDs9ayarg"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1986",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=9",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/ZlVSBrXXmUQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFKT6hwzQuEFRcwig24lZQTse_GA"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1982",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=10",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/3BzLzmXoz-E/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSBAOSS6YCn481YCEePdKMTxcrWw"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1978",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=11",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/3XdZlRnTgVg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcDKl5n1LsMXuQs8UkOnTT3BWayw"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1974",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=12",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/A16rWW3oyfw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCH-cyDgMOnj7up3y9J-pw9tdXxZA"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1970",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=13",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/4ewdx_mneGo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAq7rA14py0JIPbv7HmLZUuQiNZmQ"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1966",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=14",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/TP4-oRo6LfU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDblLq62La9Ilj764u7rvuGS7kHnw"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1962",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=15",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/ufAyb9s8NG0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJ9jQp0OXpFfZ0YTG8RqyytyGd1Q"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1958",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=16",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/QPMoBUhazSs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWtfMoxgWAhZibXW3ilMeEzQyxzQ"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1954",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=17",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/2Y2PhNggqmI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRuMuGyH6SLQ3xkDhzC_N2zIMLGg"
             },
             {
                 "title": "Todos os Gols da Copa do Mundo 1950",
                 "url": "https://www.youtube.com/watch?v=aErIFNAowtw&list=PLwoG9Q8w2t0Ca4KgsxMzvom2q0h7rQ17U&index=18",
-                "thumb": ""
+                "thumb": "https://i.ytimg.com/vi/MF5JUbPSwL4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtaEFKx4vOYHiysqrp2OWaXYSTIA"
             }
         ],
-        "Como Joga - Rafael Oliveira": [
+        "Playlists de Análise Tática":[
             {
-                "title": "Video 01",
-                "url": "url",
-                "thumb": "thumb"
-            }
-        ],
-        "Como Joga - Footure": [
+                "title": "Como Joga - Rafael Oliveira",
+                "url": "https://www.youtube.com/playlist?list=PLSJXbFicwb7XqCn3-Z-EdkCEvLnbbquCM",
+                "thumb": "https://i.ytimg.com/vi/r4AEYjyHHts/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAS1YxBxjIMOpMjnP2B2W5IPeRIzg"
+            },
             {
-                "title": "Video 01",
-                "url": "url",
-                "thumb": "thumb"
+                "title": "Como Joga cada Seleção - Footure",
+                "url": "https://www.youtube.com/playlist?list=PL5Xa3vHksUiwMOSyhArtD2KZ1A-bRDdTc",
+                "thumb": "https://i.ytimg.com/vi/gz3i4Zs-ro4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCIxy92iej-4l-x0oS-7i-7bj_ZIQ"
+            },
+            {
+                "title": "Análise de cada grupo - Footure",
+                "url": "https://www.youtube.com/playlist?list=PL5Xa3vHksUix9delHwTWOO9nh-sozdkLr",
+                "thumb": "https://i.ytimg.com/vi/bGxRQ8gjcIE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCjXREUNsOqEjiE3vNCbAaoxECF4Q"
             }
         ]
-    }
+    },
+    "favoritos": [
+        {
+            "title": "Rodrigo Produções",
+            "url": "https://www.youtube.com/c/RodrigoProduções",
+            "thumb": "https://yt3.ggpht.com/d3Wx_JBTyWltKYOT7nEibNEzPXZSqgqQLFTdVDHa9-3jIoVXf3STusziDHJzTsEmWSICRQ_s=s176-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "title": "Rafael Oliveira",
+            "url": "https://www.youtube.com/c/RafaelOliveiraFutebol",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_ceIHZjCkPw4-UCYVv80Lrl1giJ9--EbwH3zL7Vw=s176-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "title": "Footure",
+            "url": "https://www.youtube.com/c/FootureFC",
+            "thumb": "https://yt3.ggpht.com/tjtXo_0AoG8mMzfB-t1jd57IgPYURbvQx6HagZeUZdAsW5pSEjUurQlxMqXCdxsXeq8uvAzVtjw=s176-c-k-c0x00ffffff-no-rj"
+        }
+    ]
 }

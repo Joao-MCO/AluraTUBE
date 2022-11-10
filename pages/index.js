@@ -3,6 +3,7 @@ import config from "../config.json";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import { StyledFavoritos } from "../src/components/Favoritos";
 
 
 function HomePage() {
@@ -17,39 +18,54 @@ function HomePage() {
             <Menu />
             <Header />
             <TimeLine playlists={config.playlists}/>
+            <Footer favoritos={config.favoritos} />
         </div>
         </>        
     )
   }
   
 const StyledHeader = styled.div`
-    img{
-        width: 80px;
-        height: 80px;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    overflow: hidden;
+    .logo{
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
-    }
-    .user-info{
+    },
+    section{
         display: flex;
         align-items: center;
         width: 100%;
         padding: 16px 32px;
         gap: 16px;
-
+        overflow: hidden;
+    }
+    .banner{
+        width: 100%;
+        weight: 200px;
     }
 `;
 
 function Header(){
-
     return(
         <StyledHeader>
-            <img src="banner" />
-            <section className='user-info'>
-                <img src={`${config.logo}`} />
-                <div>
-                    <h2>{config.nome}</h2> 
-                    <p>{config.cargo}</p>   
-                </div>
-            </section>
+            <div>
+                <img src={`${config.banner}`} class = 'banner'/>
+            </div>
+            <div>
+                <section className='user-info'>
+                    <section>
+                        <img src={`${config.logo}`} class = 'logo' />
+                        <div>
+                            <h2>{config.nome}</h2> 
+                            <p>{config.cargo}</p>   
+                        </div>
+                    </section>
+                </section>
+            </div>
         </StyledHeader>
     )
 }
@@ -66,7 +82,7 @@ function TimeLine(props){
                         <div>
                             {videos.map((video) => {
                                 return (
-                                    <a href={videos.url}>
+                                    <a href={video.url}>
                                     <img src={video.thumb} />
                                     <span>
                                         {video.title}
@@ -79,6 +95,29 @@ function TimeLine(props){
                 )
             })}
         </StyledTimeline>
+    )
+}
+
+function Footer(props){
+    const canais = props.favoritos
+    console.log(canais[0].title)
+    return(
+        <StyledFavoritos>
+            <section>
+                <h2>Canais Favoritos</h2>
+                <div>
+                    {canais.map((canal) => {
+                        console.log(canal.title)
+                        return (
+                            <a href={canal.url}>
+                                <img src={canal.thumb} />
+                                <span>{canal.title}</span>
+                            </a>
+                        )
+                    })}
+                </div>
+            </section>
+        </StyledFavoritos>
     )
 }
 
