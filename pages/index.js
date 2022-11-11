@@ -7,7 +7,7 @@ import { StyledFavoritos } from "../src/components/Favoritos";
 import React from "react"
 
 function HomePage() {
-    const [valorDaBusca, setValorDaBusca] = React.useState("20")
+    const [valorDaBusca, setValorDaBusca] = React.useState("")
     return (
         <>
             <CSSReset />
@@ -19,43 +19,35 @@ function HomePage() {
             <Menu valorDaBusca = {valorDaBusca} setValorDaBusca = {setValorDaBusca}/>
             <Header />
             <TimeLine valorDoFiltro = {valorDaBusca} playlists={config.playlists}/>
-            <Footer favoritos={config.favoritos} />
         </div>
         </>        
     )
   }
   
-const StyledHeader = styled.div`
-    flex: 1;
-    width: 100%;
-    height: auto;
-    padding: 16px;
-    overflow: hidden;
-    .logo{
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-    },
-    section{
-        display: flex;
-        align-items: center;
-        width: 100%;
-        padding: 16px 32px;
-        gap: 16px;
-        overflow: hidden;
-    }
-    .banner{
-        width: 100%;
-        weight: 200px;
-    }
+  const StyledHeader = styled.div`
+  img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+  }
+  .user-info {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 16px 32px;
+      gap: 16px;
+  }
+`;
+const StyledBanner = styled.div`
+  background-color: green;
+  background-image: url(${config.banner});
+  height: 400px;
 `;
 
 function Header(){
     return(
         <StyledHeader>
-            <div>
-                <img src={`${config.banner}`} class = 'banner'/>
-            </div>
+            <StyledBanner />
             <div>
                 <section className='user-info'>
                     <section>
@@ -97,6 +89,7 @@ function TimeLine(props){
                     </section>
                 )
             })}
+            <Footer favoritos={config.favoritos} />=
         </StyledTimeline>
     )
 }
