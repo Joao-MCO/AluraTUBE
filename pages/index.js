@@ -4,9 +4,10 @@ import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import { StyledFavoritos } from "../src/components/Favoritos";
-
+import React from "react"
 
 function HomePage() {
+    const [valorDaBusca, setValorDaBusca] = React.useState("20")
     return (
         <>
             <CSSReset />
@@ -15,9 +16,9 @@ function HomePage() {
                 flexDirection: "column",
                 flex: 1
             }}>
-            <Menu />
+            <Menu valorDaBusca = {valorDaBusca} setValorDaBusca = {setValorDaBusca}/>
             <Header />
-            <TimeLine playlists={config.playlists}/>
+            <TimeLine valorDoFiltro = {valorDaBusca} playlists={config.playlists}/>
             <Footer favoritos={config.favoritos} />
         </div>
         </>        
@@ -80,9 +81,11 @@ function TimeLine(props){
                     <section>
                         <h2>{playlistName}</h2>
                         <div>
-                            {videos.map((video) => {
+                            {videos.filter((video) => {
+                                return video.title.toLowerCase().includes(props.valorDoFiltro.toLowerCase())
+                            }).map((video) => {
                                 return (
-                                    <a href={video.url}>
+                                    <a href={video.url} target= "_blank">
                                     <img src={video.thumb} />
                                     <span>
                                         {video.title}
@@ -107,9 +110,8 @@ function Footer(props){
                 <h2>Canais Favoritos</h2>
                 <div>
                     {canais.map((canal) => {
-                        console.log(canal.title)
                         return (
-                            <a href={canal.url}>
+                            <a href={canal.url} target= "_blank">
                                 <img src={canal.thumb} />
                                 <span>{canal.title}</span>
                             </a>
