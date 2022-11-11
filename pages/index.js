@@ -7,7 +7,7 @@ import { StyledFavoritos } from "../src/components/Favoritos";
 import React from "react"
 
 function HomePage() {
-    const [valorDaBusca, setValorDaBusca] = React.useState("20")
+    const [valorDaBusca, setValorDaBusca] = React.useState("")
     return (
         <>
             <CSSReset />
