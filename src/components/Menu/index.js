@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Search from "./components/Search";
+import Tema from "./components/Tema"
 
 const StyledMenu = styled.header`
   display: flex;
@@ -31,7 +32,12 @@ export default function Menu({valorDaBusca, setValorDaBusca}) {
       <div>
         <Logo />
       </div>
-      <Search valorDaBusca = {valorDaBusca} setValorDaBusca = {setValorDaBusca}/>
+      <div className="pesquisa">
+        <Search valorDaBusca = {valorDaBusca} setValorDaBusca = {setValorDaBusca}/>
+      </div>
+      <div>
+        <Tema />
+      </div>
     </StyledMenu>
   );
 }

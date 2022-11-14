@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import config from "../config.json";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import { StyledFavoritos } from "../src/components/Favoritos";
@@ -10,7 +9,6 @@ function HomePage() {
     const [valorDaBusca, setValorDaBusca] = React.useState("")
     return (
         <>
-            <CSSReset />
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -51,7 +49,7 @@ function Header(){
             <div>
                 <section className='user-info'>
                     <section>
-                        <img src={`${config.logo}`} class = 'logo' />
+                        <img src={`${config.logo}`} />
                         <div>
                             <h2>{config.nome}</h2> 
                             <p>{config.cargo}</p>   
@@ -96,7 +94,6 @@ function TimeLine(props){
 
 function Footer(props){
     const canais = props.favoritos
-    console.log(canais[0].title)
     return(
         <StyledFavoritos>
             <section>
